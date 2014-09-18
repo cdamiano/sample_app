@@ -1,10 +1,14 @@
 language: ruby
-
 rvm:
-  - 2.0.0
-
+- 2.0.0
 before_script:
-  - bundle exec rake --trace db:migrate
-
+- bundle exec rake --trace db:migrate
 script:
-  - bundle exec rake --trace
+- bundle exec rake --trace
+deploy:
+  provider: heroku
+  api_key:
+    secure: iG/HT2xk9vXj7cSbvI+zw6kYUe8VL6eGvS9bmTJarDhxPR7Y6UxPQzzJEDW7U2Vlh5SvzO6Uo5JFLCqJpr1JZG0zh38tnoEb6sZJP5waXo1/RiWL+d3zB2a6bOmogekDKLzkY3SLUy2kxEmOGpqfKriVXj3bPjlUffHW+zyZObM=
+  app: arcane-basin-8034
+  on:
+    repo: cdamiano/sample_app
