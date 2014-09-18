@@ -12,3 +12,6 @@ deploy:
   app: arcane-basin-8034
   on:
     repo: cdamiano/sample_app
+notifications:
+  email:
+    - con.damianopoulos@gmail.com
