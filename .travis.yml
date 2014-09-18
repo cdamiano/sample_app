@@ -14,5 +14,6 @@ deploy:
     repo: cdamiano/sample_app
 notifications:
   email:
-    - con.damianopoulos@gmail.com
+    recipients:
+      - con.damianopoulos@gmail.com
     on_success: always
