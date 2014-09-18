@@ -15,5 +15,5 @@ deploy:
 notifications:
   email:
     recipients:
-      - con.damianopoulos@gmail.com
+      secure: "RFzhbp2J9adOl7QytSkGG2PBSdWTyhinD69B7NlOTArVpZgAk+OUcDFhu4VuFROkVNi3uYY34EAi7rPxvlqvWw+ZNQNdjyPI1eHBmeNMTB3O4iVi+m4/kU8kcYBid5EZNHaHT3/b3mo8MJb/TIuRdmWL1fqk545lZ4wRpginiY0="
     on_success: always
