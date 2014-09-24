@@ -2,7 +2,7 @@ language: ruby
 rvm:
 - 2.0.0
 before_script:
-- cp config/database.yml.test confi/database.yml
+- cp config/database.yml.test config/database.yml
 - bundle exec rake --trace db:migrate
 script:
 - bundle exec rake --trace
