@@ -43,4 +43,14 @@ RSpec.configure do |config|
   #     --seed 1234
   config.order = "random"
   config.include Capybara::DSL
+  config.include FactoryGirl::Syntax::Methods
+end
+
+FactoryGirl.define do
+  factory :user do
+    name "John Doe"
+    email  "john.doe@example.com"
+    password "password"
+    password_confirmation "password"
+  end
 end
