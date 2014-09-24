@@ -3,6 +3,7 @@ rvm:
 - 2.0.0
 before_script:
 - bundle exec rake --trace db:migrate
+- cp config/database.yml.test confi/database.yml
 script:
 - bundle exec rake --trace
 deploy:
