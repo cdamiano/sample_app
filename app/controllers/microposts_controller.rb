@@ -14,7 +14,6 @@ class MicropostsController < ApplicationController
   end
 
   def destroy
-    puts "***** @microposts"
     @micropost.destroy
     redirect_to root_url
   end
