@@ -12,7 +12,9 @@ deploy:
   api_key:
     secure: iG/HT2xk9vXj7cSbvI+zw6kYUe8VL6eGvS9bmTJarDhxPR7Y6UxPQzzJEDW7U2Vlh5SvzO6Uo5JFLCqJpr1JZG0zh38tnoEb6sZJP5waXo1/RiWL+d3zB2a6bOmogekDKLzkY3SLUy2kxEmOGpqfKriVXj3bPjlUffHW+zyZObM=
   run: "rake db:migrate"
-  app: arcane-basin-8034
+  app:
+    master: arcane-basin-8034
+    production: stormy-castle-9177
   on:
     repo: cdamiano/sample_app
 notifications:
