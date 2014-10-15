@@ -20,5 +20,3 @@ deploy:
 notifications:
   email:
     - secure: "YBPtV8uZ27e4gZMSADgxUu0V/9P4WsPtpmk/ajGoIO3774rOMA4fHwymETGONc9RW4p+13hcd1aG0M3ddW41ywlqMEmvhyCuihGss5GBIYZVPH0Fiq9Ny2VLfDlcnhgPscGy6/kNztqhk9kmpK7JG+Jd/AwwF39jf/zc3VCIhpI="
-  webhooks:
-      - secure: "hzfuawxghPH/0gxZbfjxT8itWfcGVck1bVvIeffEuB3xYFXFLl7pgyOqFVRw3/vDXK+7sO/qID9lMC5ULbsvJR9jBwNZbZKZbnwJtaCr0LksIp0/zizWRlulVKAe8/I9UkHFNXel+hubocjCd0drR0i+Cd/Tis3/MnkGl/e03g0="
